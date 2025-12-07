@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Zombie Highway — Linked List Version</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+  <h1>🧟 Zombie Highway — Linked Lists</h1>
+
+  <div id="status-bar">
+    <div>Health: <span id="health-value">8</span></div>
+    <div>Score: <span id="score-value">0</span></div>
+  </div>
+
+  <div id="game-board"></div>
+
+  <div id="messages">
+    <p>Press Enter to start. Use ↑ / ↓ to move, Space to shoot.</p>
+  </div>
+
+  <div class="controls">
+    <button id="up-btn">↑ Up</button>
+    <button id="shoot-btn">Shoot</button>
+    <button id="down-btn">↓ Down</button>
+    <button id="restart-btn">Restart</button>
+  </div>
+
+  <div id="game-over-screen" class="overlay hidden">
+    <div class="panel">
+      <h2>💀 GAME OVER 💀</h2>
+      <p id="final-score"></p>
+      <button id="close-game-over">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
